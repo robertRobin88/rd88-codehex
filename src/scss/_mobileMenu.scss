@@ -1,0 +1,21 @@
+.mm-page {
+    min-height: unset;
+   
+}
+#mobile-menu {
+    li {
+        form {
+            padding: calc((var(--mm-spn-item-height) - var(--mm-spn-line-height))/ 2) var(--mm-spn-item-indent);
+            display: flex;
+
+            .search-field {
+                width: 100%;
+                margin-right: 10px;
+            }
+            
+        }
+        &.mobile-search::before {
+            display: none;
+        }
+    }
+}
